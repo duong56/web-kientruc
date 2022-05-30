@@ -1,0 +1,144 @@
+* {
+  margin: 0;
+  padding: 0; }
+
+.container {
+  background-color: white;
+  position: relative;
+  width: 100%;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  overflow: hidden; }
+  .container .menu-opacity {
+    position: absolute;
+    top: -900px;
+    left: 5px;
+    transform: rotate(45deg);
+    width: 300px;
+    height: 2000px;
+    background-color: #333;
+    z-index: 3;
+    opacity: 0.1; }
+  .container .content {
+    flex: 1; }
+    .container .content .border {
+      width: 100%;
+      height: 11px;
+      background-repeat: repeat-x;
+      background-image: url(./backdeco.png);
+      z-index: 10; }
+    .container .content .border1 {
+      position: absolute;
+      bottom: 0; }
+    .container .content .border2 {
+      position: absolute;
+      top: 0; }
+  .container .menu {
+    position: absolute;
+    width: 100%;
+    z-index: 11; }
+    .container .menu .contentMenu {
+      display: flex;
+      flex-direction: row;
+      position: relative;
+      justify-content: space-between; }
+      .container .menu .contentMenu .hide-menu {
+        height: 42px;
+        width: 20px;
+        margin-left: 5px;
+        position: absolute;
+        right: 0;
+        cursor: pointer;
+        top: 0px;
+        z-index: 30; }
+      .container .menu .contentMenu .logo {
+        z-index: 11;
+        margin-top: 15px;
+        margin-left: 20px; }
+        .container .menu .contentMenu .logo a img {
+          width: 210px;
+          height: 60px; }
+      .container .menu .contentMenu .nav {
+        z-index: 21;
+        display: flex;
+        margin-right: 30px; }
+        .container .menu .contentMenu .nav .menubac {
+          position: absolute;
+          top: -1px;
+          right: 0;
+          height: 43px;
+          width: 600px;
+          opacity: 1; }
+        .container .menu .contentMenu .nav .nav-content {
+          position: relative;
+          overflow: hidden;
+          margin-left: 20px; }
+          .container .menu .contentMenu .nav .nav-content .nav-con {
+            align-items: center; }
+            .container .menu .contentMenu .nav .nav-content .nav-con .login {
+              padding-right: 20px;
+              padding-left: 20px;
+              background-color: crimson;
+              border-radius: 30px; }
+              .container .menu .contentMenu .nav .nav-content .nav-con .login:hover {
+                background-color: #fff; }
+            .container .menu .contentMenu .nav .nav-content .nav-con .nav-con-con::after {
+              content: "";
+              height: 3px;
+              width: 0;
+              background: #fff;
+              position: absolute;
+              bottom: 0;
+              left: 0;
+              transition: all 0.4s ease-in-out; }
+            .container .menu .contentMenu .nav .nav-content .nav-con .nav-con-con:hover::after {
+              width: 50%;
+              transform: translateX(100%); }
+            .container .menu .contentMenu .nav .nav-content .nav-con a {
+              margin-top: 5px;
+              position: relative;
+              padding: 5px;
+              font-weight: 500px;
+              text-align: center;
+              font-style: italic;
+              font-family: Arial, Helvetica, sans-serif;
+              margin-top: 6px;
+              margin-left: 1px;
+              text-transform: uppercase;
+              font-size: 14px;
+              display: block;
+              text-decoration: none;
+              color: #fff; }
+              .container .menu .contentMenu .nav .nav-content .nav-con a:hover {
+                color: crimson; }
+  .container .line {
+    position: absolute;
+    z-index: 1;
+    margin-left: 60%; }
+  .container .footer {
+    height: 40px;
+    width: 100%;
+    background-color: #222;
+    z-index: 5;
+    font-family: Arial, Helvetica, sans-serif; }
+    .container .footer .footer-item {
+      right: 0px;
+      height: 40px;
+      display: flex;
+      align-items: center;
+      justify-content: flex-end; }
+      .container .footer .footer-item a {
+        font-family: Arial, Helvetica, sans-serif;
+        text-decoration: none;
+        color: crimson;
+        display: inline-block; }
+        .container .footer .footer-item a span {
+          margin: 0px 10px; }
+      .container .footer .footer-item img {
+        margin-top: auto;
+        margin-bottom: auto;
+        height: 30px;
+        margin-right: 20px; }
+
+/*# sourceMappingURL=main.css.map */

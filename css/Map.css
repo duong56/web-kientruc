@@ -1,0 +1,61 @@
+.content {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  z-index: 1; }
+  .content #map {
+    width: 100%;
+    height: 100%;
+    flex: 1; }
+  .content .map-contact {
+    position: absolute;
+    z-index: 10;
+    right: 0;
+    top: 176px; }
+    .content .map-contact .contact-content {
+      position: relative;
+      width: 500px;
+      height: 200px;
+      background-color: #fff; }
+      .content .map-contact .contact-content .contact {
+        position: absolute;
+        top: -10px;
+        left: -10px;
+        font-size: 20px;
+        text-align: center;
+        color: #fff;
+        width: 150px;
+        background-color: #25acde; }
+      .content .map-contact .contact-content .vku {
+        position: absolute;
+        top: 30px;
+        left: 20px;
+        font-style: italic; }
+        .content .map-contact .contact-content .vku div {
+          width: 160px;
+          color: #25acde;
+          font-size: 20px;
+          border-bottom: solid 2px #25acde; }
+        .content .map-contact .contact-content .vku p {
+          margin-top: 5px;
+          font-size: 15px;
+          margin: 0; }
+          .content .map-contact .contact-content .vku p span {
+            color: #25acde; }
+    .content .map-contact .contact-us {
+      margin-top: 5px;
+      width: 500px;
+      height: 50px;
+      background-color: #fff;
+      position: relative; }
+      .content .map-contact .contact-us a {
+        margin-top: 10px;
+        margin-left: 200px;
+        display: inline-block;
+        padding: 2px 5px;
+        text-decoration: none;
+        color: #fff;
+        font-style: italic;
+        background-color: #25acde; }
+
+/*# sourceMappingURL=Map.css.map */

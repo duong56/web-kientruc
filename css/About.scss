@@ -1,0 +1,182 @@
+.content {
+    background-image: url(./fondneutre.jpg);
+    position: relative;
+.container-block{
+    z-index: 2;
+    max-width: 800px;
+    margin-left: auto;
+    margin-right: auto;
+    height: 100%;
+    display: flex;
+    .view-more{
+        a{
+            display: block;
+            text-align: center;
+            border-radius: 30px;
+            margin-top: 20px;
+            margin-left: 10px;
+            margin-right: 10px;
+            padding: 3px 9px;
+            text-decoration: none;
+            color: #fff;
+            background-color: crimson;
+            margin-bottom: 5px;
+            &:hover{
+                box-sizing: border-box;
+                background-color: #fff;
+                border: solid 2px crimson;
+                color: #222;
+            }
+        }
+    }
+
+    .about-content {
+        width: 550px;
+        height: 100%;
+        background-color: #ffffff;
+        z-index: 1;
+        position: relative;
+        font-family: Arial, Helvetica, sans-serif;
+        .news {
+            font-family: Arial, Helvetica, sans-serif;
+            top: 40px;
+            opacity: 0;
+            left: 20px;
+            padding: 3px 40px;
+            position: absolute;
+            font-size: 20px;
+            background-color: crimson;
+            color: #fff;
+            z-index: 999;
+        }
+        .news-content1{
+            position: absolute;
+            opacity: 1;
+            left: 20px;
+            top: 90px;
+            width: 0px;
+            height: 80%;
+            background-color:white;
+            overflow-y: scroll;
+                #img-load{
+                    width: 98%;
+                    height: auto;
+                }
+                .come-back{
+                    position: absolute;
+                    right: 2%;
+                    opacity: 0;
+                    cursor: pointer;
+                }
+
+        }
+        .news-content {
+            position: absolute;
+            opacity: 0;
+            left: 20px;
+            top: 90px;
+            width: 520px;
+            height: 80%;
+            overflow-y: scroll;
+            background-color: #fff;
+            .new-about {
+                width: 99%;
+                height: 135px;
+                display: flex;
+                margin-bottom: 2px;
+                img {
+                    width: 170px;
+                    height: auto;
+                }
+                .duongpro {
+                    display: flex;
+                    flex: 1;
+                    position: relative;
+                    flex-direction: column;
+                    .duongpro-header {
+                        font-size: 16px;
+                        font-weight: bold;
+                        cursor: pointer;
+                        margin-top: 15px;
+                        margin-bottom: 5px;
+                        margin-left: 10px;
+                        color:#222;
+                        font-family: Arial, Helvetica, sans-serif;
+                        h5{
+                            font-weight: 500;
+                            display: block;
+                            font-size: 17px;
+                        }
+                    }
+                    .duongpro-title {
+                        margin-left: 10px;
+                        color: #87888a;
+                        font-size: 13px;
+                    }
+                    .duongpro-select {
+                        a {
+                            position: absolute;
+                            padding: 2px 5px;
+                            bottom: 3px;
+                            left: 230px;
+                            background-color:crimson;
+                            color: #fff;
+                            text-decoration: none;
+                        }
+                    }
+                }
+            }
+            .new-1 {
+                background-color: #f2f2f3;
+            }
+        }
+    }
+}
+}
+.col-md-4 {
+    height: 94vh;
+    margin-left: 20px;
+    background-color: #ffffff;
+    .block-day{
+        height: 80%;
+        overflow-y: scroll;
+        margin-top: 91px;
+        .hello-block{   
+            margin-left: 10px;
+            margin-right: 10px;
+            border-top: solid 2px crimson;
+        }
+    }
+    h4{
+        margin-top: 10px;
+        margin-left: 20px;
+        color: crimson;
+        font-size: 17px;
+    }
+    img {
+        width: 100%;
+        height: auto;
+    }
+    h5{
+        cursor: pointer;
+        margin-top: 5px;
+        font-size: 17px;
+    }
+    ul{
+        li{
+            a{
+                font-weight: 600;
+                text-decoration: none;
+                color: #222;
+                font-size: 14px;
+            }
+        }
+    }
+}
+::-webkit-scrollbar{
+    width: 10px;
+}
+::-webkit-scrollbar-thumb{
+    margin-left: 10px;
+    background-color: crimson;
+}
